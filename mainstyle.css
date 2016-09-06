@@ -1,11 +1,17 @@
 #navbar{
-    background-color: white;
+
     text-align: center;
-    
 }
 #navbar li {
     display: inline-block;
     padding: 10px;
     border:12px ridge purple;
-    
+    background-color:white;
 }
+
+html {
+    background: url("http://feedthelie.com/wp-content/uploads/2015/05/worst_cities_SF.jpg") no-repeat center center fixed;
+
+    background-size: cover;
+}
+
