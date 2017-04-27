@@ -17,13 +17,14 @@ enter.addEventListener("click", function(){
     list.innerHTML=list.innerHTML+task;
 })
 
-
-userinput.addEventListener("click", function(){
-    var clear = userinput.text;
-    clear.parentNode.removeChild();
+list.addEventListener("click", function(evt){
+    var clear = evt.target
+    clear.parentNode.removeChild(clear);
 })
 
-
+clear.addEventListener("click", function(){
+    list.innerHTML=""
+})
 
 
 
