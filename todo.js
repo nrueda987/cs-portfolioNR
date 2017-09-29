@@ -7,6 +7,7 @@ var enter = document.getElementById("enter");
 var clear = document.getElementById("clear");
 var ans1 = document.getElementById("ans1");
 var list =document.getElementById("list");
+
 //
 
 
