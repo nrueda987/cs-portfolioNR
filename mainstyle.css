@@ -7,13 +7,19 @@
     padding: 10px;
     border:12px ridge purple;
     background-color:white;
-     
-    
-    
-    
-    
     
 }
+    
+#nic {
+    display: inline-block;
+    padding: 10px;
+    border: 12px ridge blue;
+    background-color: gray;
+}
+    
+    
+    
+    
 
 html {
     background: url("http://feedthelie.com/wp-content/uploads/2015/05/worst_cities_SF.jpg") no-repeat center center fixed;
@@ -21,3 +27,23 @@ html {
     background-size: cover;
 }
 
+#Oscar{
+     display: inline-block;
+    padding: 10px;
+    border: 12px ridge blue;
+    background-color: gray;
+}
+
+#oui{
+     display: inline-block;
+    padding: 10px;
+    border: 12px ridge blue;
+    background-color: gray;
+}
+
+#Justin{
+     display: inline-block;
+    padding: 10px;
+    border: 12px ridge blue;
+    background-color: gray;
+}
